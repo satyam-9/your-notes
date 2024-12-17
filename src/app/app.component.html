@@ -1,0 +1,31 @@
+<div class="container">
+  <h2>Your Notes</h2>
+  <hr>
+  <h6>Sample notes</h6>
+  <div class="row mt-5">
+    <div class="col-md-4">
+      <app-card 
+        [title]="'Card Title 1'" 
+        [description]="'This is a description for card 1.'" 
+        [pdfUrl]="'assets/pdfs/sample.pdf'">
+      </app-card>
+    </div>
+    <div class="col-md-4">
+      <app-card l
+        [title]="'Card Title 2'" 
+        [description]="'This is a description for card 2.'" 
+        [pdfUrl]="'assets/pdfs/M_L_sample.pdf'">
+      </app-card>
+    </div>
+    <div class="col-md-4">
+      <app-card 
+        [title]="'Card Title 3'" 
+        [description]="'This is a description for card 3.'" 
+        [pdfUrl]="'assets/pdfs/sample3.pdf'">
+      </app-card>
+    </div>
+  </div>  
+</div>
+
+
+<router-outlet></router-outlet>
